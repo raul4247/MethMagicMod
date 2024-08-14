@@ -1,0 +1,6 @@
+{
+    "meth_magic_title" : "MethMagic Mod",
+    "meth_magic_menu_desc" : "Options for the MethMagic Mod",
+    "meth_magic_enable_toggle" : "Enable meth cooking help",
+    "meth_magic_enable_desc" : "Enable or disable meth cooking instructions in-chat"
+}

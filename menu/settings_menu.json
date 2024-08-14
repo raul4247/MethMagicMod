@@ -1,0 +1,17 @@
+{
+	"menu_id" : "meth_magic_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "meth_magic_title",
+	"description" : "meth_magic_menu_desc",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "enabled_toggle",
+			"title" : "meth_magic_enable_toggle",
+			"description" : "meth_magic_enable_desc",
+			"callback" : "callback_meth_magic_enable",
+			"value" : "meth_magic_enable_value",
+			"default_value" : true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+	"name" : "MethMelper",
+	"description": "Prints out information regarding recipe requirements during meth cooking.",
+	"author" : "raulfm",
+	"contact" : "https://github.com/raul4247",
+	"version" : "1.00",
+	"blt_version" : "2",
+	"updates" : 
+	[
+		{
+			"revision" : 1,
+			"identifier" : "MethMagicV1.0.0"
+		}
+	],
+	"hooks" : 
+	[
+		{"hook_id" : "lib/managers/localizationmanager", "script_path" : "lua/Menu.lua"},
+		{"hook_id" : "lib/managers/menumanager","script_path" : "lua/Menu.lua"},
+		{"hook_id" : "lib/managers/dialogmanager", "script_path" : "lua/MethMagic.lua"}
+	]
+}
